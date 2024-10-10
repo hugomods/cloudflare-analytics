@@ -1,0 +1,3 @@
+{{- if default true .Page.Params.analyze }}
+  {{ partial "hugomods/cloudflare-analytics/assets/js" . }}
+{{- end }}

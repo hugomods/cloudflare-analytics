@@ -1,0 +1,3 @@
+[params.hugopress.modules.cloudflare-analytics.hooks.head-end]
+cacheable = true
+cache_param_key = "analyze"
